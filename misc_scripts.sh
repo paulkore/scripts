@@ -16,7 +16,7 @@ function bigfiles() {
 }
 
 # outputs the list of configured SSH hosts 
-function ssh-list() {
+function sshlist() {
   echo 'List of configured SSH hosts (~/.ssh/config):'
   cat ~/.ssh/config | grep 'Host '
 }
