@@ -1,4 +1,8 @@
 
+# Enable Sublime Text on the command-line
+ln -sf "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+
+
 # echo the passed argument in red color for better visibility
 function echor() {
   echo -e "\x1B[1;31m$1\x1B[0m"
